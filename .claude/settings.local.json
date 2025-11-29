@@ -4,7 +4,10 @@
       "Bash(git stash:*)",
       "Bash(git reset:*)",
       "Bash(git ls-tree:*)",
-      "Bash(test:*)"
+      "Bash(test:*)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(git checkout:*)"
     ],
     "deny": [],
     "ask": []
