@@ -7,7 +7,21 @@
       "Bash(test:*)",
       "Bash(git commit:*)",
       "Bash(git push:*)",
-      "Bash(git checkout:*)"
+      "Bash(git checkout:*)",
+      "Bash(git branch:*)",
+      "SlashCommand(/speckit.specify Feature 002: Data Model & Database Schema)",
+      "SlashCommand(/speckit.specify:*)",
+      "Bash(then ls -d specs/*-data-model-schema)",
+      "Bash(git remote add:*)",
+      "Bash(pnpm prisma init:*)",
+      "Bash(pnpm prisma generate:*)",
+      "Bash(pnpm prisma migrate dev:*)",
+      "Bash(pnpm remove:*)",
+      "Bash(pnpm prisma migrate:*)",
+      "Bash(docker exec:*)",
+      "Bash(TEST_DATABASE_URL=\"postgresql://postgres:postgres@localhost:5432/supply_chain_test\" pnpm prisma migrate deploy:*)",
+      "Bash(DATABASE_URL=\"postgresql://postgres:postgres@localhost:5432/supply_chain_test\" pnpm prisma migrate:*)",
+      "Bash(pnpm db:seed:*)"
     ],
     "deny": [],
     "ask": []
